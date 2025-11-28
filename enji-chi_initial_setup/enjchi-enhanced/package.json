@@ -1,0 +1,42 @@
+{
+  "name": "enjchi-enhanced",
+  "version": "2.0.0",
+  "description": "Enhanced Enji-Chi - A blockchain-powered NFT hatching game with React, Phaser 3, and dual wallet support",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext ts,tsx"
+  },
+  "keywords": [
+    "phaser",
+    "phaser3",
+    "react",
+    "game",
+    "blockchain",
+    "nft",
+    "enjin",
+    "metamask",
+    "web3",
+    "typescript",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "phaser": "^3.90.0",
+    "ethers": "^6.15.0",
+    "graphql-request": "^7.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^7.2.4"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "enji-chi-game",
+  "version": "1.0.0",
+  "description": "Enji-Chi - A blockchain-powered NFT hatching game built with Phaser 3 and Enjin SDK",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "phaser",
+    "phaser3",
+    "game",
+    "blockchain",
+    "nft",
+    "enjin",
+    "web3",
+    "typescript",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.90.0",
+    "ethers": "^6.15.0",
+    "graphql-request": "^7.3.3",
+    "@walletconnect/web3wallet": "^1.16.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^7.2.4"
+  }
+}
